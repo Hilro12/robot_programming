@@ -1,0 +1,4 @@
+add_subdirectory(data_structures)
+add_subdirectory(geometry)
+add_subdirectory(messages)
+add_subdirectory(utils)

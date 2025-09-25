@@ -1,0 +1,5 @@
+add_executable(main_program many_object_in_stack_example.cpp)
+target_include_directories(main_program PRIVATE ${CMAKE_SOURCE_DIR}/executable)
+target_include_directories(main_program PRIVATE ${CMAKE_SOURCE_DIR}/src)
+target_include_directories(main_program PRIVATE ${EIGEN3_INCLUDE_DIR}) 
+target_link_libraries(main_program messaggi utility)
